@@ -1,0 +1,22 @@
+{
+  "name": "vionicgroup/amazon-mws-finances",
+  "description": "Library to interface with Amazon MWS Finances",
+  "license": "MIT",
+  "keywords": ["amazon", "mws", "finances"],
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Mark Rinella",
+      "email": "m@rinella.dev"
+    }
+  ],
+  "require": {
+    "php": ">= 5.4"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "MCSF\\": "src"
+    }
+  }
+}
