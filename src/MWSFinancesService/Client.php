@@ -1,6 +1,4 @@
 <?php
-
-namespace MCSF;
 /*******************************************************************************
  * Copyright 2009-2020 Amazon Services. All Rights Reserved.
  * Licensed under the Apache License, Version 2.0 (the "License"); 
@@ -18,6 +16,8 @@ namespace MCSF;
  * Library Version: 2020-02-21
  * Generated: Fri Feb 21 09:07:30 PST 2020
  */
+
+namespace MCSF;
 
 /**
  *  @see MWSFinancesService_Interface
