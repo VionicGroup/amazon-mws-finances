@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'MCSF\\' => array($baseDir . '/src'),
+    'MWSF\\' => array($baseDir . '/src'),
 );

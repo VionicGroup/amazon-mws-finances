@@ -11,12 +11,17 @@
     }
   ],
   "require": {
-    "php": ">= 5.4"
+    "php": ">=7.0",
+    "ext-iconv": "*",
+    "ext-libxml": "*",
+    "ext-simplexml": "*",
+    "ext-curl": "*",
+    "ext-dom": "*"
   },
   "require-dev": {},
   "autoload": {
     "psr-4": {
-      "MCSF\\": "src"
+      "MWSF\\": "src"
     }
   }
 }
