@@ -17,7 +17,7 @@
  * Generated: Fri Feb 21 09:07:30 PST 2020
  */
 
-
+namespace MCSF;
 /**
  * MWS Finances Service Exception provides details of errors
  * returned by MWS Finances Service service

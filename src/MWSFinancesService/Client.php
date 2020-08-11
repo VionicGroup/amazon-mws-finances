@@ -1,4 +1,6 @@
 <?php
+
+namespace MCSF;
 /*******************************************************************************
  * Copyright 2009-2020 Amazon Services. All Rights Reserved.
  * Licensed under the Apache License, Version 2.0 (the "License"); 

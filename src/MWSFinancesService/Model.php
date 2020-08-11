@@ -17,6 +17,8 @@
  * Generated: Fri Feb 21 09:07:30 PST 2020
  */
 
+namespace MCSF;
+
 /**
  * MWSFinancesService_Model - base class for all model classes
  */
