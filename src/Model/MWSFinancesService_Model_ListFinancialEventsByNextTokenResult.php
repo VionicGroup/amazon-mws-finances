@@ -59,7 +59,7 @@ use MWSF\MWSFinancesService_Model;
      * Set the value of the NextToken property.
      *
      * @param string nextToken
-     * @return this instance
+     * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResult instance
      */
     public function setNextToken($value)
     {
@@ -80,10 +80,10 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Set the value of NextToken, return this.
      *
-     * @param nextToken
+     * @param string nextToken
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResult instance.
      */
     public function withNextToken($value)
     {
@@ -94,7 +94,7 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Get the value of the FinancialEvents property.
      *
-     * @return FinancialEvents FinancialEvents.
+     * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResult FinancialEvents.
      */
     public function getFinancialEvents()
     {
@@ -105,7 +105,7 @@ use MWSF\MWSFinancesService_Model;
      * Set the value of the FinancialEvents property.
      *
      * @param MWSFinancesService_Model_FinancialEvents financialEvents
-     * @return this instance
+     * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResult instance
      */
     public function setFinancialEvents($value)
     {
@@ -116,7 +116,7 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Check to see if FinancialEvents is set.
      *
-     * @return true if FinancialEvents is set.
+     * @return bool true if FinancialEvents is set.
      */
     public function isSetFinancialEvents()
     {
@@ -126,10 +126,10 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Set the value of FinancialEvents, return this.
      *
-     * @param financialEvents
+     * @param MWSFinancesService_Model_ListFinancialEventsByNextTokenResult
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResult instance.
      */
     public function withFinancialEvents($value)
     {
@@ -137,4 +137,16 @@ use MWSF\MWSFinancesService_Model;
         return $this;
     }
 
-}
+     /**
+      * Get the value of the FinancialEvents property.
+      *
+      * @param string $field
+      * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResult FinancialEvents FinancialEvents.
+      */
+     public function getFinancialEventsByFieldValue($field)
+     {
+         return $this->_fields['FinancialEvents'][$field];
+     }
+
+
+ }

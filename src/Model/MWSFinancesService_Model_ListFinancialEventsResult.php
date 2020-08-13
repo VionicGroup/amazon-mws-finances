@@ -70,7 +70,7 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Check to see if NextToken is set.
      *
-     * @return true if NextToken is set.
+     * @return bool \\true if NextToken is set.
      */
     public function isSetNextToken()
     {
@@ -80,7 +80,7 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Set the value of NextToken, return this.
      *
-     * @param nextToken
+     * @param string nextToken
      *             The new value to set.
      *
      * @return MWSFinancesService_Model_ListFinancialEventsResult
@@ -94,7 +94,7 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Get the value of the FinancialEvents property.
      *
-     * @return FinancialEvents FinancialEvents.
+     * @return MWSFinancesService_Model_ListFinancialEventsResult FinancialEvents FinancialEvents.
      */
     public function getFinancialEvents()
     {
@@ -126,7 +126,7 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Set the value of FinancialEvents, return this.
      *
-     * @param financialEvents
+     * @param array financialEvents
      *             The new value to set.
      *
      * @return MWSFinancesService_Model_ListFinancialEventsResult
@@ -137,4 +137,15 @@ use MWSF\MWSFinancesService_Model;
         return $this;
     }
 
-}
+     /**
+      * Get the value of the FinancialEvents property.
+      *
+      * @param string $field
+      * @return MWSFinancesService_Model_ListFinancialEventsResult FinancialEvents FinancialEvents.
+      */
+     public function getFinancialEventsByFieldValue($field)
+     {
+         return $this->_fields['FinancialEvents'][$field];
+     }
+
+ }

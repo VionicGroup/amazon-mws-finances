@@ -55,7 +55,7 @@ use Exception;
     /**
      * Get the value of the ListFinancialEventsResult property.
      *
-     * @return ListFinancialEventsResult ListFinancialEventsResult.
+     * @return MWSFinancesService_Model_ListFinancialEventsResult ListFinancialEventsResult.
      */
     public function getListFinancialEventsResult()
     {

@@ -20,6 +20,9 @@
 namespace MWSF\Model;
 
 
+use DOMDocument;
+use DOMXPath;
+use Exception;
 use MWSF\MWSFinancesService_Model;
 
 /**
@@ -50,7 +53,7 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Get the value of the ListFinancialEventsByNextTokenResult property.
      *
-     * @return ListFinancialEventsByNextTokenResult ListFinancialEventsByNextTokenResult.
+     * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResult ListFinancialEventsByNextTokenResult.
      */
     public function getListFinancialEventsByNextTokenResult()
     {
@@ -61,7 +64,7 @@ use MWSF\MWSFinancesService_Model;
      * Set the value of the ListFinancialEventsByNextTokenResult property.
      *
      * @param MWSFinancesService_Model_ListFinancialEventsByNextTokenResult listFinancialEventsByNextTokenResult
-     * @return this instance
+     * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse instance
      */
     public function setListFinancialEventsByNextTokenResult($value)
     {
@@ -82,10 +85,10 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Set the value of ListFinancialEventsByNextTokenResult, return this.
      *
-     * @param listFinancialEventsByNextTokenResult
+     * @param MWSFinancesService_Model_ListFinancialEventsByNextTokenResult
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse instance.
      */
     public function withListFinancialEventsByNextTokenResult($value)
     {
@@ -96,7 +99,7 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return MWSFinancesService_Model_ResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -107,7 +110,7 @@ use MWSF\MWSFinancesService_Model;
      * Set the value of the ResponseMetadata property.
      *
      * @param MWSFinancesService_Model_ResponseMetadata responseMetadata
-     * @return this instance
+     * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse instance
      */
     public function setResponseMetadata($value)
     {
@@ -128,10 +131,10 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Set the value of ResponseMetadata, return this.
      *
-     * @param responseMetadata
+     * @param MWSFinancesService_Model_ResponseMetadata
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse instance.
      */
     public function withResponseMetadata($value)
     {
@@ -142,7 +145,7 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return MWSFinancesService_Model_ResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {
@@ -153,7 +156,7 @@ use MWSF\MWSFinancesService_Model;
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param MWSFinancesService_Model_ResponseHeaderMetadata responseHeaderMetadata
-     * @return this instance
+     * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse instance
      */
     public function setResponseHeaderMetadata($value)
     {
@@ -174,24 +177,26 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Set the value of ResponseHeaderMetadata, return this.
      *
-     * @param responseHeaderMetadata
+     * @param MWSFinancesService_Model_ResponseHeaderMetadata
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse instance.
      */
     public function withResponseHeaderMetadata($value)
     {
         $this->setResponseHeaderMetadata($value);
         return $this;
     }
-    /**
-     * Construct MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse from XML string
-     * 
-     * @param $xml
-     *        XML string to construct from
-     *
-     * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse 
-     */
+
+     /**
+      * Construct MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse from XML string
+      *
+      * @param $xml
+      *        XML string to construct from
+      *
+      * @return MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse
+      * @throws Exception
+      */
     public static function fromXML($xml)
     {
         $dom = new DOMDocument();

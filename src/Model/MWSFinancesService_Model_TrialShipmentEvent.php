@@ -66,7 +66,7 @@ use MWSF\MWSFinancesService_Model;
      * Set the value of the AmazonOrderId property.
      *
      * @param string amazonOrderId
-     * @return this instance
+     * @return MWSFinancesService_Model_TrialShipmentEvent
      */
     public function setAmazonOrderId($value)
     {
@@ -87,10 +87,10 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Set the value of AmazonOrderId, return this.
      *
-     * @param amazonOrderId
+     * @param string amazonOrderId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MWSFinancesService_Model_TrialShipmentEvent instance.
      */
     public function withAmazonOrderId($value)
     {
@@ -112,7 +112,7 @@ use MWSF\MWSFinancesService_Model;
      * Set the value of the FinancialEventGroupId property.
      *
      * @param string financialEventGroupId
-     * @return this instance
+     * @return MWSFinancesService_Model_TrialShipmentEvent instance
      */
     public function setFinancialEventGroupId($value)
     {
@@ -133,10 +133,10 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Set the value of FinancialEventGroupId, return this.
      *
-     * @param financialEventGroupId
+     * @param string financialEventGroupId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MWSFinancesService_Model_TrialShipmentEvent instance.
      */
     public function withFinancialEventGroupId($value)
     {
@@ -158,7 +158,7 @@ use MWSF\MWSFinancesService_Model;
      * Set the value of the PostedDate property.
      *
      * @param string postedDate
-     * @return this instance
+     * @return MWSFinancesService_Model_TrialShipmentEvent instance
      */
     public function setPostedDate($value)
     {
@@ -179,10 +179,10 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Set the value of PostedDate, return this.
      *
-     * @param postedDate
+     * @param string postedDate
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MWSFinancesService_Model_TrialShipmentEvent instance.
      */
     public function withPostedDate($value)
     {
@@ -204,7 +204,7 @@ use MWSF\MWSFinancesService_Model;
      * Set the value of the SKU property.
      *
      * @param string sku
-     * @return this instance
+     * @return MWSFinancesService_Model_TrialShipmentEvent instance
      */
     public function setSKU($value)
     {
@@ -225,10 +225,10 @@ use MWSF\MWSFinancesService_Model;
     /**
      * Set the value of SKU, return this.
      *
-     * @param sku
+     * @param string sku
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MWSFinancesService_Model_TrialShipmentEvent instance.
      */
     public function withSKU($value)
     {
@@ -254,7 +254,7 @@ use MWSF\MWSFinancesService_Model;
      * Set the value of the FeeList property.
      *
      * @param array feeList
-     * @return this instance
+     * @return MWSFinancesService_Model_TrialShipmentEvent instance
      */
     public function setFeeList($value)
     {
@@ -289,7 +289,7 @@ use MWSF\MWSFinancesService_Model;
      * @param feeList
      *             New values to add.
      *
-     * @return This instance.
+     * @return MWSFinancesService_Model_TrialShipmentEvent instance.
      */
     public function withFeeList()
     {
