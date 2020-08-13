@@ -145,7 +145,7 @@ use MWSF\MWSFinancesService_Model;
       */
      public function getFinancialEventsByFieldValue($field)
      {
-         return $this->_fields['FinancialEvents'][$field];
+         return $this->_fields['FinancialEvents']['FieldValue'][$field];
      }
 
 
