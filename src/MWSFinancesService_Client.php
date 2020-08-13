@@ -552,7 +552,7 @@ class MWSFinancesService_Client implements MWSFinancesService_Interface
         $exProps = array();
         $exProps["StatusCode"] = $status;
         $exProps["ResponseHeaderMetadata"] = $responseHeaderMetadata;
-        $exProps["ExceptionMessage"] = $e->getMessage();
+        $exProps["ExceptionMessage"] = $e;
 
         libxml_use_internal_errors(true);  // Silence XML parsing errors
         $xmlBody = simplexml_load_string($responseBody);
