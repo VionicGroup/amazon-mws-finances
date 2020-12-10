@@ -3,7 +3,6 @@
   "description": "Library to interface with Amazon MWS Finances",
   "license": "MIT",
   "keywords": ["amazon", "mws", "finances"],
-  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Mark Rinella",
@@ -23,5 +22,10 @@
     "psr-4": {
       "MWSF\\": "src"
     }
-  }
+  },
+  "extra": {
+        "branch-alias": {
+            "master": "1.0"
+        }
+    }
 }
