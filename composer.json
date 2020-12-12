@@ -22,10 +22,5 @@
     "psr-4": {
       "MWSF\\": "src"
     }
-  },
-  "extra": {
-        "branch-alias": {
-            "master": "1.0"
-        }
-    }
+  }
 }
